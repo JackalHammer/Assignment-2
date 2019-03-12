@@ -37,6 +37,7 @@
 		        
 		        <a-assets >
 		            <a-asset-item id="pipe" src="model/pipe/pipe.gltf"></a-asset-item>
+ 					<a-asset-item id="pipe2" src="model/pipe/pipe.gltf"></a-asset-item>
 		            <!-- <img id="sky" src="img/bg.jpg"> -->
 		        </a-assets>
 
@@ -47,13 +48,13 @@
 		        <a-light 
 			        type="ambient" 
 			        color="#fff" 
-			        intensity="5">
+			        intensity="10">
 		        </a-light>
-
+		       
 		        <a-entity 
-			        camera 
-			        look-controls 
-			        position="6 0 1">
+			        camera
+			        look-controls.disabled
+			        position="2 0 5">
 		        </a-entity>
 
 		      
@@ -65,6 +66,14 @@
 			        animation="property: rotation; to: 0 0 90; loop: true; dur: 10000">
 		        </a-entity>
 
+		        <a-entity 	
+		        	gltf-model="#pipe2" 
+			        position="0 1 0" 
+			        rotation="-90 0 90" 
+
+			        animation="property: rotation; to: 0 -1 90; loop: true; dur: 10000">
+		        </a-entity>
+            </a-scene>
 		</div>
 
 		<div class="project-info">
@@ -72,9 +81,8 @@
 			<p class="copyright">Object property of the Blackfoot People, courtesy of the Blackfoot Digital Library<p>
 	   		 <p class="copyright">Background Credit: <a href="http://creativeblend.blogspot.com/2011/08/hd-panorama-view-wallpapers.html" >creativeblend.blogspot.com</a><p>
 	   		 	<p>Created by GROUP C</p>
-	    </p>
+            </div>
 
 	<script src="js/js.js"></script>
 </body>
 </html>
-

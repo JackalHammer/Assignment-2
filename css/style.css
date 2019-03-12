@@ -30,15 +30,19 @@ a{
 }
 
 .aframe-scene, a-scene {
-	width: 70vw;
-	height: 400%;
+	width: 100vw;
+	height: 300%;
     background-image: url(../img/pexels-photo-203088.jpeg);
     margin: auto;
 
 }
 
 .info-card {
-	color: white;
+	
+}
+
+.card-1{
+    color: white;
 	position: absolute;
 	z-index: 50;
 	width: 30%;
@@ -46,7 +50,53 @@ a{
 	top: 10vw;
 	background: rgba(0, 0, 0, 0.6);
 	padding: 30px;
+    
 }
+
+.card-2{
+    color: white;
+	position: absolute;
+	z-index: 50;
+	width: 30%;
+	right: 60vw;
+	top: 40vw;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 30px;
+}
+
+.card-3{
+    color: white;
+	position: absolute;
+	z-index: 50;
+	width: 30%;
+	right: 10vw;
+	top: 60vw;
+	background: rgba(0, 255, 0, 0.6);
+	padding: 30px;
+}
+
+.card-4{
+    color: white;
+	position: absolute;
+	z-index: 50;
+	width: 30%;
+	right: 10vw;
+	top: 60vw;
+	background: rgba(5, 5, 255, 0.6);
+	padding: 30px;
+}
+
+.card-5{
+    color: white;
+	position: absolute;
+	z-index: 50;
+	width: 30%;
+	right: 60vw;
+	top: 90vw;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 30px;
+}
+
 
 .project-info {
 	margin-left: 10vw;

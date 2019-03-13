@@ -73,8 +73,9 @@ a{
 	width: 30%;
 	right: 60vw;
 	top: 62vw;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(68, 101, 118, 0.3);
 	padding: 30px;
+	border-radius: 25px;
 }
 
 .card-3{
@@ -84,8 +85,9 @@ a{
 	width: 30%;
 	right: 10vw;
 	top: 80vw;
-	background: rgba(0, 255, 0, 0.6);
+	background: rgba(73, 21, 16, 0.3);
 	padding: 30px;
+	border-radius: 25px;
 }
 
 .card-4{
@@ -95,8 +97,9 @@ a{
 	width: 30%;
 	right: 60vw;
 	top: 100vw;
-	background: rgba(5, 5, 255, 0.6);
+	background: rgba(68, 101, 118, 0.3);
 	padding: 30px;
+	border-radius: 25px;
 }
 
 .card-5{
@@ -106,8 +109,9 @@ a{
 	width: 30%;
 	right: 10vw;
 	top: 125vw;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(73, 21, 16, 0.3);
 	padding: 30px;
+	border-radius: 25px;
 }
 
 

@@ -1,8 +1,8 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-header{
+header {
     width: 40vw;
     background-position: center;
     background-image: url(../img/logo.svg);
@@ -12,126 +12,178 @@ header{
 }
 
 
-html, body {
-	height: 2000px;
-	margin: 0;
-	font-family: sans-serif;
+html,
+body {
+    height: 2000px;
+    margin: 0;
+    font-family: sans-serif;
 
-	background: rgba(73,21,16,1);
-	background: -moz-linear-gradient(left, rgba(73,21,16,1) 0%, rgba(0,0,0,1) 50%, rgba(68,101,118,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,21,16,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(68,101,118,1)));
-	background: -webkit-linear-gradient(left, rgba(73,21,16,1) 0%, rgba(0,0,0,1) 50%, rgba(68,101,118,1) 100%);
-	background: -o-linear-gradient(left, rgba(73,21,16,1) 0%, rgba(0,0,0,1) 50%, rgba(68,101,118,1) 100%);
-	background: -ms-linear-gradient(left, rgba(73,21,16,1) 0%, rgba(0,0,0,1) 50%, rgba(68,101,118,1) 100%);
-	background: linear-gradient(to right, rgba(73,21,16,1) 0%, rgba(0,0,0,1) 50%, rgba(68,101,118,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#491510', endColorstr='#446576', GradientType=1 );
+    background: rgba(73, 21, 16, 1);
+    background: -moz-linear-gradient(left, rgba(73, 21, 16, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(68, 101, 118, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73, 21, 16, 1)), color-stop(50%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(68, 101, 118, 1)));
+    background: -webkit-linear-gradient(left, rgba(73, 21, 16, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(68, 101, 118, 1) 100%);
+    background: -o-linear-gradient(left, rgba(73, 21, 16, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(68, 101, 118, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(73, 21, 16, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(68, 101, 118, 1) 100%);
+    background: linear-gradient(to right, rgba(73, 21, 16, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(68, 101, 118, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#491510', endColorstr='#446576', GradientType=1);
 }
 
-a{
-	color: white;
+a {
+    color: white;
 }
 
-.uleth{
-	float: right;
-	position: absolute;
-	width: 50%;
-	left: 70vw;
-	top: 13vw;
-	padding: 30px;
+.uleth {
+    float: right;
+    position: absolute;
+    width: 50%;
+    left: 70vw;
+    top: 13vw;
+    padding: 30px;
 }
 
 .aframe-scene {
-	width: 100vw;
-	height: 100vw;
+    width: 100vw;
+    height: 100vw;
     background-image: url(../img/mixed4.png);
     margin: auto;
 }
 
 
-.info-card {
-	
-}
+.info-card {}
 
-.card-1{
+.card-1 {
     color: white;
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	z-index: 50;
-	width: 30%;
-	left: 35vw;
-	top: 30vw;
-	padding: 30px;
-    
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 50;
+    width: 30%;
+    left: 35vw;
+    top: 30vw;
+    padding: 30px;
+
 }
 
 
 
-.card-2{
+.card-2 {
     transition: all 1s ease-in-out;
     color: white;
-	position: absolute;
-	z-index: 50;
-	width: 30%;
-	right: 60vw;
-	top: 62vw;
-	background: rgba(68, 101, 118, 0.3);
-	padding: 30px;
-	border-radius: 25px;
+    position: absolute;
+    z-index: 50;
+    width: 30%;
+    right: 60vw;
+    top: 59vw;
+    background: rgba(68, 101, 118, 0.3);
+    padding: 30px;
+    border-radius: 25px;
 }
 
-.card-3{
+.card-3 {
     color: white;
-	position: absolute;
-	z-index: 50;
-	width: 30%;
-	right: 10vw;
-	top: 80vw;
-	background: rgba(73, 21, 16, 0.3);
-	padding: 30px;
-	border-radius: 25px;
+    position: absolute;
+    z-index: 50;
+    width: 30%;
+    right: 10vw;
+    top: 95vw;
+    background: rgba(73, 21, 16, 0.3);
+    padding: 30px;
+    border-radius: 25px;
 }
 
-.card-4{
+.card-4 {
     color: white;
-	position: absolute;
-	z-index: 50;
-	width: 30%;
-	right: 60vw;
-	top: 100vw;
-	background: rgba(68, 101, 118, 0.3);
-	padding: 30px;
-	border-radius: 25px;
+    position: absolute;
+    z-index: 50;
+    width: 30%;
+    right: 60vw;
+    top: 110vw;
+    background: rgba(68, 101, 118, 0.3);
+    padding: 30px;
+    border-radius: 25px;
 }
 
-.card-5{
+.card-5 {
     color: white;
-	position: absolute;
-	z-index: 50;
-	width: 30%;
-	right: 10vw;
-	top: 125vw;
-	background: rgba(73, 21, 16, 0.3);
-	padding: 30px;
-	border-radius: 25px;
+    position: absolute;
+    z-index: 50;
+    width: 30%;
+    left: 9vw;
+    top: 135vw;
+    background: rgba(68, 101, 118, 0.3);
+    padding: 30px;
+    border-radius: 25px;
 }
 
+.card-6 {
+    position: absolute;
+    z-index: 50;
+    width: 30%;
+    right: 10vw;
+    top: 68vw;
+    padding: 30px;
+
+}
+
+.card-7 {
+    position: absolute;
+    z-index: 50;
+    width: 30%;
+    left: 9vw;
+    top: 81vw;
+    padding: 30px;
+
+}
+
+.card-8 {
+    position: absolute;
+    z-index: 50;
+    width: 30%;
+    right: 10vw;
+    top: 120vw;
+    padding: 30px;
+
+}
+
+.img1 {
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+.img2 {
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+.img3 {
+
+    width: 100%;
+    border-radius: 25px;
+
+}
 
 .project-info {
-	text-align: center;
-	color: white;
-	padding: 40px 0;
-	background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.6);
 
 }
 
-p{
+p {
     font-size: 130%;
-font-family: 'Skranji', cursive; 
+    font-family: 'Skranji', cursive;
+    color: white;
 }
 
-h1{
+.small {
+    font-size: 80%;
+    text-align: center;
+}
+
+h1 {
     font-size: 400%;
-font-family: 'Skranji', cursive; 
+    font-family: 'Skranji', cursive;
 }
-

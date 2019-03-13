@@ -24,4 +24,4 @@ https://www.canadashistory.ca/explore/environment/blackfoot-bacco
 
 Created by GROUP C
 
-© 2019
+Â© 2019

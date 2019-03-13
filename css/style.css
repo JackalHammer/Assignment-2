@@ -43,9 +43,8 @@ a{
 .aframe-scene {
 	width: 100vw;
 	height: 100vw;
-    background-image: url(../img/mixed2.png);
+    background-image: url(../img/mixed4.png);
     margin: auto;
-    background-repeat: no-repeat;
 }
 
 
@@ -66,7 +65,10 @@ a{
     
 }
 
+
+
 .card-2{
+    transition: all 1s ease-in-out;
     color: white;
 	position: absolute;
 	z-index: 50;
@@ -121,5 +123,15 @@ a{
 	padding: 40px 0;
 	background: rgba(0, 0, 0, 0.6);
 
+}
+
+p{
+    font-size: 130%;
+font-family: 'Skranji', cursive; 
+}
+
+h1{
+    font-size: 400%;
+font-family: 'Skranji', cursive; 
 }
 
